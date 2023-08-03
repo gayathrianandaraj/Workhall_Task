@@ -1,0 +1,36 @@
+.menu-bar {
+  background-color: #0096ff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.left-menu span {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.right-menu {
+  display: flex;
+}
+
+.right-menu button {
+  padding: 8px 12px;
+  margin: 0 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.right-menu button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
